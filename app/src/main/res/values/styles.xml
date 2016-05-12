@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+    </style>
+
+    <style name="edit_text_style">
+        <!--<item name="fontType">Roboto_Light</item>-->
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:textColor">@color/text_color_header</item>
+        <item name="android:textSize">@dimen/card_header_text_size</item>
+    </style>
+
+    <style name="custom_button_style">
+        <!--<item name="fontType">Roboto_Light</item>-->
+        <item name="android:textColor">@color/ColorPrimary</item>
+        <item name="android:textSize">@dimen/custom_button_text_size</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:paddingLeft">17dp</item>
+        <item name="android:paddingRight">17dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+</resources>
